@@ -64,7 +64,7 @@ require_once "send_mail.php";
                 <ul>
                     <li>
                         <span class="icon"><i class="icofont-phone"></i></span>
-                        +212 522 355 475/76/77
+                        +212 522 355 475/76/77 <br>
                     </li>
                     <li>
                         <span class="icon"><i class="icofont-google-map"></i></span>
@@ -1005,7 +1005,8 @@ require_once "send_mail.php";
                                 <div style="display: inline-flex;">
                                     <i class="icon icofont-phone"
                                        style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
-                                    <p>+212 522 355 475/76/77</p>
+                                    <p>+212 522 35 54 75/76/77</p>
+                                    <p>+212 522 35 24 94/95</p>
                                 </div>
                                 <div style="display: inline-flex;">
                                     <i class="icon icofont-fax"
@@ -1074,7 +1075,7 @@ require_once "send_mail.php";
                     </div>
                     <div class="item">
                         <i class="icon icofont-phone"></i>
-                        <h6><span>Télephone : </span> +212 522 355 475/76/77</h6>
+                        <h6><span>Télephone : </span> +212 522 35 54 75/76/77<br>+212 522 35 24 94/95</h6>
                     </div>
                     <div class="item">
                         <i class="icon icofont-fax"></i>
