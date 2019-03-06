@@ -941,7 +941,7 @@ require_once "send_mail.php";
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input id="form_phone" type="tel" name="phone" placeholder="Télephone"
+                                    <input id="form_phone" type="text" name="phone" placeholder="Télephone"
                                            required="required" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                                 </div>
                             </div>
