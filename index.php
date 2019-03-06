@@ -1,3 +1,7 @@
+<?php
+require_once "send_mail.php";
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -64,22 +68,23 @@
                     </li>
                     <li>
                         <span class="icon"><i class="icofont-google-map"></i></span>
-                        rte Nationale 1, Km 15 Ain Harrouda, Maroc</li>
+                        rte Nationale 1, Km 15 Ain Harrouda, Maroc
+                    </li>
                 </ul>
             </div>
 
             <div class="social col">
                 <div class="text-right">
-                   <!--  <a href="#0" class="icon">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a> -->
+                    <!--  <a href="#0" class="icon">
+                         <i class="fab fa-linkedin-in"></i>
+                     </a> -->
                     <a href="https://www.facebook.com/Comaprom-205407806728333/" class="icon">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                   <!--  <a href="#0" class="icon">
-                        <i class="fab fa-twitter"></i>
-                    </a> -->
-                    <a href="#0"  data-scroll-nav="8" class="butn butn-bg">
+                    <!--  <a href="#0" class="icon">
+                         <i class="fab fa-twitter"></i>
+                     </a> -->
+                    <a href="#0" data-scroll-nav="8" class="butn butn-bg">
                         <span>Obtenir un devis</span>
                     </a>
                 </div>
@@ -99,9 +104,11 @@
     <div class="container">
 
         <!-- Logo -->
-       
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="icon-bar"><i class="fas fa-bars"></i></span>
         </button>
         <!-- navbar links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -130,26 +137,23 @@
 ======================================= -->
 
 
-
-
-
 <!-- =====================================
 ==== Start Header -->
 
 <!--<header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="5" data-background="img/bg.jpg"-->
-        <!--&gt;-->
+<!--&gt;-->
 
-    <!--<div class="container">-->
-        <!--<div class="row">-->
-            <!--<div class="col-lg-10 offset-lg-1 text-center caption mt-50">-->
-                <!--<h1>Nos Produits</h1>-->
-                <!--<h4>la réussite de vos projets est aussi importante que la nôtre</h4>-->
-                <!--<a href="#0" data-scroll-nav="3" class="butn butn-bg mt-30">-->
-                    <!--<span>Découvrir</span>-->
-                <!--</a>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-lg-10 offset-lg-1 text-center caption mt-50">-->
+<!--<h1>Nos Produits</h1>-->
+<!--<h4>la réussite de vos projets est aussi importante que la nôtre</h4>-->
+<!--<a href="#0" data-scroll-nav="3" class="butn butn-bg mt-30">-->
+<!--<span>Découvrir</span>-->
+<!--</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 <!--</header>-->
 
 <!-- End Header ====
@@ -159,26 +163,26 @@
 
     <div class="owl-carousel owl-theme">
         <div class="item bg-img" data-background="img/bg.png">
-           <!--  <div class="v-middle caption mt-30">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-10 offset-lg-1 text-center caption mt-50">
-                            <h1>Nos Produits</h1>
-                            <h4>la réussite de vos projets est aussi importante que la nôtre</h4>
-                            <a href="#0" data-scroll-nav="3" class="butn butn-bg mt-30">
-                                <span>Découvrir</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+            <!--  <div class="v-middle caption mt-30">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-lg-10 offset-lg-1 text-center caption mt-50">
+                             <h1>Nos Produits</h1>
+                             <h4>la réussite de vos projets est aussi importante que la nôtre</h4>
+                             <a href="#0" data-scroll-nav="3" class="butn butn-bg mt-30">
+                                 <span>Découvrir</span>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+             </div> -->
         </div>
-    <div class="item bg-img" data-overlay-dark="5" data-background="img/bg1.jpg">
+        <div class="item bg-img" data-overlay-dark="5" data-background="img/bg1.jpg">
             <div class="v-middle caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1 text-center imgg">
-                             <a class="logo" href="#">
+                            <a class="logo" href="#">
                                 <img src="img/logo.png" alt="logo">
                             </a>
                         </div>
@@ -203,29 +207,29 @@
 <section class="hero section-padding" data-scroll-index="1">
     <div class="container">
         <div class="row">
-              <style type="text/css">
-                  .image_full{
-                   display:block;
-                  }
-
-                 .image_mobile{
-                  display:none;
-                 }
-
-                @media (max-width: 991px){
-                  .image_full{
-                   display:none;
-                  }
-
-                  .image_mobile{
-                   display:block;
-                  }
+            <style type="text/css">
+                .image_full {
+                    display: block;
                 }
-              </style>
+
+                .image_mobile {
+                    display: none;
+                }
+
+                @media (max-width: 991px) {
+                    .image_full {
+                        display: none;
+                    }
+
+                    .image_mobile {
+                        display: block;
+                    }
+                }
+            </style>
             <div class="col-lg-6">
                 <div class="img mb-md50">
                     <img src="img/about.png" class="image_full">
-                    <img src="img/bg.png"  class="image_mobile">
+                    <img src="img/bg.png" class="image_mobile">
                 </div>
             </div>
 
@@ -234,20 +238,25 @@
                     <h6>Qui sommes nous?</h6>
                     <h3>Comaprom: Comptoir casablancais de produits métallurgiques</h3>
                     <p style="text-align: justify;">
-Le comptoir casablancais de produits métallurgiques est une société spécialisée dans la fabrication des tubes soudés et profilés, ainsi que dans l’importation et commercialisation des produits métallurgiques.<br>
-Comaprom est installée sur un site de production et de stockage de 50.000 m² dont 30.000 m² couverts, avec une capacité de production de 45 000 tonnes/an.<br>
-Comaprom propose une gamme de produit très large et diversifiée accompagnée de la meilleure qualité disponible sur le marché marocain, cela revient à l’efficacité de notre équipe de production ainsi qu’aux machines performantes et spéciales dont nous disposons.<br> 
-Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
+                        Le comptoir casablancais de produits métallurgiques est une société spécialisée dans la
+                        fabrication des tubes soudés et profilés, ainsi que dans l’importation et commercialisation des
+                        produits métallurgiques.<br>
+                        Comaprom est installée sur un site de production et de stockage de 50.000 m² dont 30.000 m²
+                        couverts, avec une capacité de production de 45 000 tonnes/an.<br>
+                        Comaprom propose une gamme de produit très large et diversifiée accompagnée de la meilleure
+                        qualité disponible sur le marché marocain, cela revient à l’efficacité de notre équipe de
+                        production ainsi qu’aux machines performantes et spéciales dont nous disposons.<br>
+                        Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
                     </p>
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="our-services">
                                 <li>
-                                    <span class="icon"><img src="img/tube.png" style="width: 18px;" /></span>
+                                    <span class="icon"><img src="img/tube.png" style="width: 18px;"/></span>
                                     <span>Tubes soudés et profilés</span>
                                 </li>
                                 <li>
-                                    <span class="icon"><img src="img/toles.png" style="width: 18px;" /></span>
+                                    <span class="icon"><img src="img/toles.png" style="width: 18px;"/></span>
                                     <span>Tôles</span>
                                 </li>
                             </ul>
@@ -255,11 +264,11 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
                         <div class="col-md-6">
                             <ul class="our-services">
                                 <li>
-                                    <span class="icon"><img src="img/lamines.png" style="width: 18px;" /></span>
+                                    <span class="icon"><img src="img/lamines.png" style="width: 18px;"/></span>
                                     <span>Laminés marchands</span>
                                 </li>
                                 <li>
-                                    <span class="icon"><img src="img/poutrelle.png" style="width: 18px;" /></span>
+                                    <span class="icon"><img src="img/poutrelle.png" style="width: 18px;"/></span>
                                     <span>Poutrelles</span>
                                 </li>
                             </ul>
@@ -276,11 +285,11 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
 ======================================= -->
 
 
-
 <!-- =====================================
 ==== Start Video -->
 
-<section class="video numbers section-padding bg-img bg-fixed round" data-overlay-dark="2" data-background="img/bg2.png">
+<section class="video numbers section-padding bg-img bg-fixed round" data-overlay-dark="2"
+         data-background="img/bg2.png">
     <div class="container">
         <div class="row">
 
@@ -341,7 +350,7 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
 
             <div class="col-md-6">
                 <div class="item">
-                    <span class="icon"><img src="img/tube.png" style="width: 50px;" /></span>
+                    <span class="icon"><img src="img/tube.png" style="width: 50px;"/></span>
                     <h6>Tubes soudés et profilés</h6>
                     <p>Tubes carré, Tubes rond, Tubes rectangulaire et Tubes ovale.</p>
                 </div>
@@ -349,15 +358,16 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
 
             <div class="col-md-6">
                 <div class="item">
-                    <span class="icon"><img src="img/toles.png" style="width: 50px;" /></span>
+                    <span class="icon"><img src="img/toles.png" style="width: 50px;"/></span>
                     <h6>Tôles</h6>
-                    <p>Tôles LAF et LAC, Tôles nervesco, Tôles striés, Tôles galvanisé, Panneaux Sandwich ISOMUR et ISOTOIT.</p>
+                    <p>Tôles LAF et LAC, Tôles nervesco, Tôles striés, Tôles galvanisé, Panneaux Sandwich ISOMUR et
+                        ISOTOIT.</p>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="item">
-                    <span class="icon"><img src="img/lamines.png" style="width: 50px;" /></span>
+                    <span class="icon"><img src="img/lamines.png" style="width: 50px;"/></span>
                     <h6>Laminés marchands</h6>
                     <p>Cornière, Fer rond et carré, Fer UAC, Fer plat, Fer à T.</p>
                 </div>
@@ -365,7 +375,7 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
 
             <div class="col-md-6">
                 <div class="item">
-                    <span class="icon"><img src="img/poutrelle.png" style="width: 50px;" /></span>
+                    <span class="icon"><img src="img/poutrelle.png" style="width: 50px;"/></span>
                     <h6>Poutrelles</h6>
                     <p>Fer UPN, Fer IPE, Fer HEB, Fer HEA.</p>
                 </div>
@@ -382,7 +392,7 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
 <!-- =====================================
 ==== Start Portfolio -->
 
-<section class="portfolio section-padding" data-scroll-index="4" >
+<section class="portfolio section-padding" data-scroll-index="4">
     <div class="container">
         <div class="row">
 
@@ -393,7 +403,7 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
             <!-- filter links -->
             <div class="filtering text-center full-width">
                 <div class="filter">
-                    <span data-filter='*' class="active">Tous</span>            
+                    <span data-filter='*' class="active">Tous</span>
                     <span data-filter='.Tubes'>Tubes</span>
                     <span data-filter='.Tôles'>Tôles</span>
                     <span data-filter='.Laminés'>Laminés marchands</span>
@@ -574,7 +584,7 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 items Tôles">
                     <div class="item-img">
                         <img src="img/portfolio/tole-galvanisees.jpg" alt="image">
@@ -651,8 +661,8 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
                         </div>
                     </div>
                 </div>
-               
-              
+
+
                 <div class="col-lg-3 col-md-6 items Laminés">
                     <div class="item-img">
                         <img src="img/portfolio/lamines-plat.jpg" alt="image">
@@ -683,7 +693,7 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
                         </div>
                     </div>
                 </div>
-                  <div class="col-lg-3 col-md-6 items Laminés">
+                <div class="col-lg-3 col-md-6 items Laminés">
                     <div class="item-img">
                         <img src="img/portfolio/lamines-corniere.jpg" alt="image">
                         <div class="item-img-overlay">
@@ -698,7 +708,7 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
                         </div>
                     </div>
                 </div>
-                 <div class="col-lg-3 col-md-6 items Laminés">
+                <div class="col-lg-3 col-md-6 items Laminés">
                     <div class="item-img">
                         <img src="img/portfolio/lamines-Fer-T.jpg" alt="image">
                         <div class="item-img-overlay">
@@ -744,61 +754,61 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
 ==== Start Testimonials -->
 
 <!--<section class="testimonials section-padding" data-scroll-index="5">-->
-    <!--<div class="container">-->
-        <!--<div class="row">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
 
-            <!--<div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">-->
-                <!--<div class="owl-carousel owl-theme text-center">-->
-                    <!--<div class="item">-->
-                        <!--<div class="client-area">-->
-                            <!--<div class="img">-->
-                                <!--<span class="icon"><img src="img/left-quote.svg" alt=""></span>-->
-                                <!--<span class="icon"><img src="img/right-quote.svg" alt=""></span>-->
-                                <!--<div class="author">-->
-                                    <!--<img src="img/clients/1.jpg" alt="">-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<h6>Alex Smith</h6>-->
-                            <!--<span>Client 1</span>-->
-                        <!--</div>-->
-                        <!--<p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum-->
-                            <!--velit class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>-->
-                    <!--</div>-->
-                    <!--<div class="item">-->
-                        <!--<div class="client-area">-->
-                            <!--<div class="img">-->
-                                <!--<span class="icon"><img src="img/left-quote.svg" alt=""></span>-->
-                                <!--<span class="icon"><img src="img/right-quote.svg" alt=""></span>-->
-                                <!--<div class="author">-->
-                                    <!--<img src="img/clients/2.jpg" alt="">-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<h6>Sam Smith</h6>-->
-                            <!--<span>Client 2</span>-->
-                        <!--</div>-->
-                        <!--<p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum-->
-                            <!--velit class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>-->
-                    <!--</div>-->
-                    <!--<div class="item">-->
-                        <!--<div class="client-area">-->
-                            <!--<div class="img">-->
-                                <!--<span class="icon"><img src="img/left-quote.svg" alt=""></span>-->
-                                <!--<span class="icon"><img src="img/right-quote.svg" alt=""></span>-->
-                                <!--<div class="author">-->
-                                    <!--<img src="img/clients/3.jpg" alt="">-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<h6>Alex Martin</h6>-->
-                            <!--<span>Client 3</span>-->
-                        <!--</div>-->
-                        <!--<p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum-->
-                            <!--velit class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
+<!--<div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">-->
+<!--<div class="owl-carousel owl-theme text-center">-->
+<!--<div class="item">-->
+<!--<div class="client-area">-->
+<!--<div class="img">-->
+<!--<span class="icon"><img src="img/left-quote.svg" alt=""></span>-->
+<!--<span class="icon"><img src="img/right-quote.svg" alt=""></span>-->
+<!--<div class="author">-->
+<!--<img src="img/clients/1.jpg" alt="">-->
+<!--</div>-->
+<!--</div>-->
+<!--<h6>Alex Smith</h6>-->
+<!--<span>Client 1</span>-->
+<!--</div>-->
+<!--<p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum-->
+<!--velit class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<div class="client-area">-->
+<!--<div class="img">-->
+<!--<span class="icon"><img src="img/left-quote.svg" alt=""></span>-->
+<!--<span class="icon"><img src="img/right-quote.svg" alt=""></span>-->
+<!--<div class="author">-->
+<!--<img src="img/clients/2.jpg" alt="">-->
+<!--</div>-->
+<!--</div>-->
+<!--<h6>Sam Smith</h6>-->
+<!--<span>Client 2</span>-->
+<!--</div>-->
+<!--<p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum-->
+<!--velit class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<div class="client-area">-->
+<!--<div class="img">-->
+<!--<span class="icon"><img src="img/left-quote.svg" alt=""></span>-->
+<!--<span class="icon"><img src="img/right-quote.svg" alt=""></span>-->
+<!--<div class="author">-->
+<!--<img src="img/clients/3.jpg" alt="">-->
+<!--</div>-->
+<!--</div>-->
+<!--<h6>Alex Martin</h6>-->
+<!--<span>Client 3</span>-->
+<!--</div>-->
+<!--<p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum-->
+<!--velit class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 
-        <!--</div>-->
-    <!--</div>-->
+<!--</div>-->
+<!--</div>-->
 <!--</section>-->
 
 <!-- End Testimonials ====
@@ -814,7 +824,7 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
 
             <div class="col-lg-8 col-md-9 content">
                 <h6>En cours de réalisation</h6>
-                
+
             </div>
 
             <div class="offset-lg-2 offset-md-1 col-md-2 valign">
@@ -837,59 +847,59 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
 ==== Start Clients -->
 
 <!--<div class="clients text-center" data-scroll-index="7">-->
-    <!--<div class="container">-->
-        <!--<div class="row">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
 
-            <!--<div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">-->
-                <!--<h6>Ils nous en fait confiance</h6>-->
-                <!--<h3>Nos clients</h3>-->
-            <!--</div>-->
+<!--<div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">-->
+<!--<h6>Ils nous en fait confiance</h6>-->
+<!--<h3>Nos clients</h3>-->
+<!--</div>-->
 
-            <!--<div class="col-md-12 owl-carousel owl-theme">-->
-                <!--<div class="client-logo">-->
-                    <!--<a href="#0">-->
-                        <!--<img src="img/clients-logo/1.png" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="client-logo">-->
-                    <!--<a href="#0">-->
-                        <!--<img src="img/clients-logo/2.png" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="client-logo">-->
-                    <!--<a href="#0">-->
-                        <!--<img src="img/clients-logo/3.png" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="client-logo">-->
-                    <!--<a href="#0">-->
-                        <!--<img src="img/clients-logo/4.png" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="client-logo">-->
-                    <!--<a href="#0">-->
-                        <!--<img src="img/clients-logo/5.png" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="client-logo">-->
-                    <!--<a href="#0">-->
-                        <!--<img src="img/clients-logo/6.png" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="client-logo">-->
-                    <!--<a href="#0">-->
-                        <!--<img src="img/clients-logo/7.png" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="client-logo">-->
-                    <!--<a href="#0">-->
-                        <!--<img src="img/clients-logo/8.png" alt="">-->
-                    <!--</a>-->
-                <!--</div>-->
-            <!--</div>-->
+<!--<div class="col-md-12 owl-carousel owl-theme">-->
+<!--<div class="client-logo">-->
+<!--<a href="#0">-->
+<!--<img src="img/clients-logo/1.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="client-logo">-->
+<!--<a href="#0">-->
+<!--<img src="img/clients-logo/2.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="client-logo">-->
+<!--<a href="#0">-->
+<!--<img src="img/clients-logo/3.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="client-logo">-->
+<!--<a href="#0">-->
+<!--<img src="img/clients-logo/4.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="client-logo">-->
+<!--<a href="#0">-->
+<!--<img src="img/clients-logo/5.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="client-logo">-->
+<!--<a href="#0">-->
+<!--<img src="img/clients-logo/6.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="client-logo">-->
+<!--<a href="#0">-->
+<!--<img src="img/clients-logo/7.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--<div class="client-logo">-->
+<!--<a href="#0">-->
+<!--<img src="img/clients-logo/8.png" alt="">-->
+<!--</a>-->
+<!--</div>-->
+<!--</div>-->
 
-        <!--</div>-->
-    <!--</div>-->
+<!--</div>-->
+<!--</div>-->
 <!--</div>-->
 
 <!-- End Clients ====
@@ -909,7 +919,7 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
             </div>
 
             <div class="col-lg-7">
-                <form class="form mb-md50" id="contact-form" method="post" action="contact.php">
+                <form class="form mb-md50" id="contact-form" method="post">
 
                     <div class="messages"></div>
 
@@ -947,6 +957,18 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
                                 </div>
                             </div>
 
+                            <?php
+                            if (isset($err)) {
+                                ?>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <p style="color:red;"><?php echo $err; ?></p>
+                                    </div>
+                                </div>
+                                <?php
+                            }
+                            ?>
+
                             <div class="col-md-12">
                                 <button type="submit" class="butn butn-bg"><span>Envoyer le message</span></button>
                             </div>
@@ -965,22 +987,26 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
                         <div class="row">
                             <div class="col-sm-6">
                                 <div style="display: inline-flex;">
-                                <i class="icon icofont-google-map" style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
-                                <p>rte Nationale 1, Km 15 Ain Harrouda, Maroc</p>
+                                    <i class="icon icofont-google-map"
+                                       style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
+                                    <p>rte Nationale 1, Km 15 Ain Harrouda, Maroc</p>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div style="display: inline-flex;">
-                                <i class="icon icofont-phone" style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
-                                <p>+212 522 355 475/76/77</p>
+                                    <i class="icon icofont-phone"
+                                       style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
+                                    <p>+212 522 355 475/76/77</p>
                                 </div>
                                 <div style="display: inline-flex;">
-                                <i class="icon icofont-fax" style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
-                                <p>022 35  54 80</p>
+                                    <i class="icon icofont-fax"
+                                       style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
+                                    <p>022 35 54 80</p>
                                 </div>
                                 <div style="display: inline-flex;">
-                                <i class="icon icofont-email" style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
-                                <p>contact@comaprom.co.ma</p>
+                                    <i class="icon icofont-email"
+                                       style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
+                                    <p>contact@comaprom.co.ma</p>
                                 </div>
                             </div>
                         </div>
@@ -1008,7 +1034,9 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
                     <div class="title">
                         <h5>À propos de nous.</h5>
                     </div>
-                    <p style="text-align: justify;">Le comptoir casablancais de produits métallurgiques est une société spécialisée dans la fabrication des tubes soudés et profilés, ainsi que dans l’importation et commercialisation des produits métallurgiques.
+                    <p style="text-align: justify;">Le comptoir casablancais de produits métallurgiques est une société
+                        spécialisée dans la fabrication des tubes soudés et profilés, ainsi que dans l’importation et
+                        commercialisation des produits métallurgiques.
                     </p>
                     <!-- <div class="social">
                         <span>Social : </span>
@@ -1037,17 +1065,17 @@ Nos produits s’étalent sur 4 catégories qui se caractérisent comme suit :
                     </div>
                     <div class="item">
                         <i class="icon icofont-phone"></i>
-                        <h6><span>Télephone : </span>  +212 522 355 475/76/77</h6>
+                        <h6><span>Télephone : </span> +212 522 355 475/76/77</h6>
                     </div>
                     <div class="item">
                         <i class="icon icofont-fax"></i>
-                        <h6><span>Fax : </span>  022 35  54 80</h6>
-                    </div>  
+                        <h6><span>Fax : </span> 022 35 54 80</h6>
+                    </div>
                     <div class="item">
                         <i class="icon icofont-email"></i>
                         <h6><a href="#0">
-                            <span>Email : </span> contact@comaprom.co.ma
-                        </a></h6>
+                                <span>Email : </span> contact@comaprom.co.ma
+                            </a></h6>
                     </div>
                     <!-- <div class="item mb-20">
                         <i class="icon icofont-clock-time"></i>
