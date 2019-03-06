@@ -919,7 +919,7 @@ require_once "send_mail.php";
             </div>
 
             <div class="col-lg-7">
-                <form class="form mb-md50" id="contact-form" method="post">
+                <form class="form mb-md50" id="contact-form" method="post" action="index.php#contact-form">
 
                     <div class="messages"></div>
 
@@ -966,11 +966,20 @@ require_once "send_mail.php";
                                     </div>
                                 </div>
                                 <?php
+                            } else if (isset($success)) {
+                                ?>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <p style="color:green;"><?php echo $success; ?></p>
+                                    </div>
+                                </div>
+                                <?php
                             }
                             ?>
 
                             <div class="col-md-12">
-                                <button type="submit" name="submited" class="butn butn-bg"><span>Envoyer le message</span></button>
+                                <button type="submit" name="submited" class="butn butn-bg">
+                                    <span>Envoyer le message</span></button>
                             </div>
 
                         </div>
