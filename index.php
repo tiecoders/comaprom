@@ -1006,6 +1006,10 @@ require_once "send_mail.php";
                                     <i class="icon icofont-phone"
                                        style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
                                     <p>+212 522 35 54 75/76/77</p>
+                                </div>
+                                <div style="display: inline-flex;">
+                                    <i class="icon"
+                                       style="margin-top: 5px;margin-right: 5px;color: #2159ba;"></i>
                                     <p>+212 522 35 24 94/95</p>
                                 </div>
                                 <div style="display: inline-flex;">
