@@ -12,7 +12,7 @@ $phone = $_POST['phone'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-if (empty($name) || empty($email) || empty($phone) || empty($subject) || empty($message)) {
+if ((empty($name) || empty($email) || empty($phone) || empty($subject) || empty($message)) && isset($_POST['submited'])) {
     $err = "Tout les champs sont requis.";
 } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $err = "Veuillez indiquer une adresse E-mail valide.";

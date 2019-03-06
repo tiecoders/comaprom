@@ -970,7 +970,7 @@ require_once "send_mail.php";
                             ?>
 
                             <div class="col-md-12">
-                                <button type="submit" class="butn butn-bg"><span>Envoyer le message</span></button>
+                                <button type="submit" name="submited" class="butn butn-bg"><span>Envoyer le message</span></button>
                             </div>
 
                         </div>
