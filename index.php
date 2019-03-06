@@ -1079,7 +1079,12 @@ require_once "send_mail.php";
                     </div>
                     <div class="item">
                         <i class="icon icofont-phone"></i>
-                        <h6><span>Télephone : </span> +212 522 35 54 75/76/77<br>+212 522 35 24 94/95</h6>
+                        <h6>
+                            <span>Télephone : </span>
+                            <span>+212 522 35 54 75/76/77</span>
+                            <br>
+                            <span style="float: right">+212 522 35 24 94/95</span>
+                        </h6>
                     </div>
                     <div class="item">
                         <i class="icon icofont-fax"></i>
