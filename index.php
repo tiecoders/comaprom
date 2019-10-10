@@ -297,7 +297,7 @@ require_once "send_mail.php";
                 <h2> La qualité de nos produits est reconnue comme la meilleure sur le marché marocain</h2>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-8">
                 <div class="item text-center mb-md50">
                     <span class="icon"><i class="icofont-users-social"></i></span>
                     <h2 class="count">131</h2>
@@ -305,7 +305,7 @@ require_once "send_mail.php";
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-8">
                 <div class="item text-center mb-md50">
                     <span class="icon"><i class="icofont-industries-5"></i></span>
                     <h2 class="count">45000</h2>
@@ -313,22 +313,13 @@ require_once "send_mail.php";
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-8">
                 <div class="item text-center mb-sm50">
                     <span class="icon"><i class="icofont-money-bag"></i></span>
                     <h2 class="count">90</h2>
                     <p>Capital (MDH)</p>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="item text-center">
-                    <span class="icon"><i class="icofont-user-suited"></i></span>
-                    <h2 class="count">600</h2>
-                    <p>Clients/an</p>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
