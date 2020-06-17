@@ -308,7 +308,7 @@ require_once "send_mail.php";
             <div class="col-lg-4 col-md-8">
                 <div class="item text-center mb-md50">
                     <span class="icon"><i class="icofont-industries-5"></i></span>
-                    <h2 class="count">100 000</h2>
+                    <h2 class="count">45000</h2>
                     <p>Capacité de Production (T/an)</p>
                 </div>
             </div>
